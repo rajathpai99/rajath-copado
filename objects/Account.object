@@ -581,6 +581,13 @@
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account Number cannot be nullified</errorMessage>
     </validationRules>
+    <validationRules>
+        <fullName>test_acc</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(BillingCountry)</errorConditionFormula>
+        <errorDisplayField>BillingCountry</errorDisplayField>
+        <errorMessage>Billing Country cannot be blank</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
