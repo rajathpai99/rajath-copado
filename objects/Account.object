@@ -584,7 +584,6 @@
             <valueSettings>
                 <controllingFieldValue>a</controllingFieldValue>
                 <controllingFieldValue>b</controllingFieldValue>
-                <controllingFieldValue>c</controllingFieldValue>
                 <valueName>three</valueName>
             </valueSettings>
             <valueSettings>
@@ -594,7 +593,6 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>a</controllingFieldValue>
-                <controllingFieldValue>c</controllingFieldValue>
                 <valueName>nine</valueName>
             </valueSettings>
             <valueSettings>
@@ -607,12 +605,7 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>b</controllingFieldValue>
-                <controllingFieldValue>c</controllingFieldValue>
                 <valueName>seven</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>c</controllingFieldValue>
-                <valueName>eight</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -636,11 +629,6 @@
                     <fullName>b</fullName>
                     <default>false</default>
                     <label>b</label>
-                </value>
-                <value>
-                    <fullName>c</fullName>
-                    <default>false</default>
-                    <label>c</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
