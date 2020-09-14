@@ -1,6 +1,6 @@
 public class TemperatureConverter {
     // Takes a Fahrenheit temperature and returns the Celsius equivalent.
-    public static Decimal fhToCels(Decimal fh) {
+    public static Decimal farhToCels(Decimal fh) {
         Decimal cels = (fh - 32) * 5/9;
         System.debug('Copado Rocks!!!');
         return cels.setScale(2);
