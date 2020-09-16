@@ -323,6 +323,17 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>test_dep_2__c</fullName>
+        <externalId>false</externalId>
+        <label>test dep 2</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
         <filterScope>Everything</filterScope>
