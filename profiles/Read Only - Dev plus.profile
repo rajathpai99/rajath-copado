@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
-    <loginHours>
-        <fridayEnd>1260</fridayEnd>
-        <fridayStart>540</fridayStart>
-        <mondayEnd>1260</mondayEnd>
-        <mondayStart>540</mondayStart>
-        <thursdayEnd>1260</thursdayEnd>
-        <thursdayStart>540</thursdayStart>
-        <tuesdayEnd>1260</tuesdayEnd>
-        <tuesdayStart>540</tuesdayStart>
-        <wednesdayEnd>1260</wednesdayEnd>
-        <wednesdayStart>540</wednesdayStart>
-    </loginHours>
+    <loginHours />
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
