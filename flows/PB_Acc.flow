@@ -153,28 +153,28 @@
                 <leftValueReference>myVariable_current.AccountSource</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Web</stringValue>
+                    <stringValue>Partner Referral</stringValue>
                 </rightValue>
             </conditions>
             <connector>
                 <targetReference>myRule_5_A1</targetReference>
             </connector>
-            <label>Accont test</label>
+            <label>Account Name</label>
         </rules>
     </decisions>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>[Account].Name + &apos;Web&apos;</stringValue>
+                <stringValue>[Account].Name + &apos;Partner Referred&apos;</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_6_myRule_5_A1_4221047323</name>
+        <name>formula_6_myRule_5_A1_3537778230</name>
         <dataType>String</dataType>
-        <expression>{!myVariable_current.Name} + &apos;Web&apos;</expression>
+        <expression>{!myVariable_current.Name} + &apos;Partner Referred&apos;</expression>
     </formulas>
-    <interviewLabel>PB_Acc-3_InterviewLabel</interviewLabel>
-    <label>PB_Acc_test</label>
+    <interviewLabel>PB_Acc-4_InterviewLabel</interviewLabel>
+    <label>PB_Acc</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -392,7 +392,7 @@
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_5_A1</name>
-        <label>Update Name</label>
+        <label>Name Update</label>
         <locationX>500</locationX>
         <locationY>200</locationY>
         <filters>
@@ -441,7 +441,7 @@
             </processMetadataValues>
             <field>Name</field>
             <value>
-                <elementReference>formula_6_myRule_5_A1_4221047323</elementReference>
+                <elementReference>formula_6_myRule_5_A1_3537778230</elementReference>
             </value>
         </inputAssignments>
         <object>Account</object>
