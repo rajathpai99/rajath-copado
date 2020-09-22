@@ -11,6 +11,14 @@
         <nodeType>NAMEFIELD</nodeType>
     </managedContentNodeTypes>
     <managedContentNodeTypes>
+        <helpText>Enter a brief description of the document.</helpText>
+        <isLocalizable>true</isLocalizable>
+        <isRequired>false</isRequired>
+        <nodeLabel>Alt Text</nodeLabel>
+        <nodeName>altText</nodeName>
+        <nodeType>MTEXT</nodeType>
+    </managedContentNodeTypes>
+    <managedContentNodeTypes>
         <helpText>Adds media to your content from a desktop file or URL link. Make sure the domain for your URL is allowed by your org so your users can access it.</helpText>
         <isLocalizable>false</isLocalizable>
         <isRequired>true</isRequired>
@@ -25,14 +33,6 @@
         <nodeLabel>Link to Thumbnail</nodeLabel>
         <nodeName>thumbUrl</nodeName>
         <nodeType>URL</nodeType>
-    </managedContentNodeTypes>
-    <managedContentNodeTypes>
-        <helpText>Enter a brief description of the document.</helpText>
-        <isLocalizable>true</isLocalizable>
-        <isRequired>false</isRequired>
-        <nodeLabel>Alt Text</nodeLabel>
-        <nodeName>altText</nodeName>
-        <nodeType>MTEXT</nodeType>
     </managedContentNodeTypes>
     <masterLabel>Document</masterLabel>
 </ManagedContentType>
