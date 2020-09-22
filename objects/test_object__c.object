@@ -168,6 +168,5 @@
         <searchFilterFields>NAME</searchFilterFields>
         <searchFilterFields>Account_test__c</searchFilterFields>
     </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
