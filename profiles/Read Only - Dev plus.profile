@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>test_object__c.picklist_v1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>test_object__c-test object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_object__c-test object Layout</layout>
+        <recordType>test_object__c.test_rec_v1</recordType>
+    </layoutAssignments>
     <loginHours>
         <mondayEnd>840</mondayEnd>
         <mondayStart>60</mondayStart>
@@ -16,6 +28,11 @@
         <object>test_object__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>test_object__c.test_rec_v1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

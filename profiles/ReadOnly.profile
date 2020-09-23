@@ -4877,6 +4877,11 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>test_object__c.picklist_v1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -5181,6 +5186,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_object__c-test object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_object__c-test object Layout</layout>
+        <recordType>test_object__c.test_rec_v1</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -7198,6 +7210,11 @@
         <default>false</default>
         <recordType>copado__User_Story__c.copado__User_Story</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>test_object__c.test_rec_v1</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>copado__Account_Summary</tab>
