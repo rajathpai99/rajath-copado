@@ -217,17 +217,9 @@
     <recordTypes>
         <fullName>test_rec_v1</fullName>
         <active>true</active>
-        <label>test rec updated v1</label>
+        <label>test rec v1</label>
         <picklistValues>
             <picklist>picklist_v1__c</picklist>
-            <values>
-                <fullName>five</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>four</fullName>
-                <default>false</default>
-            </values>
             <values>
                 <fullName>one</fullName>
                 <default>false</default>
