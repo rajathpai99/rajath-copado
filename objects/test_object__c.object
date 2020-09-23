@@ -221,14 +221,6 @@
         <picklistValues>
             <picklist>picklist_v1__c</picklist>
             <values>
-                <fullName>five</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>four</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>one</fullName>
                 <default>false</default>
             </values>
