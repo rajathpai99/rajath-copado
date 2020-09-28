@@ -18,5 +18,15 @@ private class TemperatureConverterTest {
         Decimal celsius = TemperatureConverter.fhToCelsius(-10);
         System.assertEquals(-23.33,celsius);
     }
-      
+    
+    @isTest static void testFreezingPointFh() {
+        Decimal fahrenheit = TemperatureConverter.celToFh(0);
+        System.assertEquals(32,fahrenheit);
+    }
+    
+    @isTest static void testBoilingPointFh() {
+        Decimal fahrenheit = TemperatureConverter.celToFh(100);
+        System.assertEquals(212,fahrenheit);
+    }
+
 }
