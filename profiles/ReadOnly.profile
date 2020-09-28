@@ -2693,6 +2693,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.child_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.controlling_pick_list__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.test_1__c</field>
         <readable>true</readable>
@@ -3275,6 +3285,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Experience__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4170,6 +4190,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.test_dep_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.test_dep_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.test_dep_4__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6378,6 +6408,15 @@
         <object>WorkTypeGroup</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>test_object__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>
@@ -7531,7 +7570,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContentContribute</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContentSearch</tab>
