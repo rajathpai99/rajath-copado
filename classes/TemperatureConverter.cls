@@ -6,4 +6,9 @@ public class TemperatureConverter {
         return cels.setScale(2);
         //Additional comment overwrite v1
     }
+    
+    public static Decimal celToFh(Decimal cel) {
+    Decimal fh = (cel * 9/5) + 32;
+    return fh.setScale(2);
+    }
 }
