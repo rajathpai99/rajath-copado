@@ -3,7 +3,9 @@ public class TemperatureConverter {
     public static Decimal fhToCelsius(Decimal fh) {
         Decimal cels = (fh - 32) * 5/9;
         System.debug('Copado Rocks!!!');
+        System.debug('Additional Line!!');
         return cels.setScale(2);
         //Additional comment overwrite v1
     }
+
 }
