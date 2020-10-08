@@ -314,8 +314,10 @@
     </fields>
     <fields>
         <fullName>test_dep_1__c</fullName>
+        <complianceGroup>PII;GDPR</complianceGroup>
+        <description>This is just an update</description>
         <externalId>false</externalId>
-        <label>test dep 1</label>
+        <label>test dep 1 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -325,8 +327,10 @@
     </fields>
     <fields>
         <fullName>test_dep_2__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Another update</description>
         <externalId>false</externalId>
-        <label>test dep 2</label>
+        <label>test dep 2 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
