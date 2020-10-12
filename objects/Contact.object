@@ -500,7 +500,7 @@
     <fields>
         <fullName>test_con_1__c</fullName>
         <externalId>false</externalId>
-        <label>test con 1</label>
+        <label>test con 1 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
