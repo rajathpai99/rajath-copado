@@ -476,9 +476,9 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>test_con_1__c</fullName>
+        <fullName>test_con_2__c</fullName>
         <externalId>false</externalId>
-        <label>test con 1 upd</label>
+        <label>test con 2 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -486,9 +486,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>test_con_2__c</fullName>
+        <fullName>test_con_1__c</fullName>
         <externalId>false</externalId>
-        <label>test con 2 upd</label>
+        <label>test con 1 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
