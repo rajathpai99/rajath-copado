@@ -682,14 +682,24 @@
                     <label>cat_small</label>
                 </value>
                 <value>
-                    <fullName>dog_lab</fullName>
+                    <fullName>dog</fullName>
                     <default>false</default>
-                    <label>dog_labrador</label>
+                    <label>dog</label>
                 </value>
                 <value>
                     <fullName>elephant_big</fullName>
                     <default>false</default>
                     <label>elephant_big</label>
+                </value>
+                <value>
+                    <fullName>fountain</fullName>
+                    <default>false</default>
+                    <label>fountain</label>
+                </value>
+                <value>
+                    <fullName>garage</fullName>
+                    <default>false</default>
+                    <label>garage</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
