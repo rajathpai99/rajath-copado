@@ -645,6 +645,45 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>test_acc_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>test acc picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>apple</fullName>
+                    <default>false</default>
+                    <label>apple</label>
+                </value>
+                <value>
+                    <fullName>ball</fullName>
+                    <default>false</default>
+                    <label>ball</label>
+                </value>
+                <value>
+                    <fullName>cat</fullName>
+                    <default>false</default>
+                    <label>cat_small</label>
+                </value>
+                <value>
+                    <fullName>dog_lab</fullName>
+                    <default>false</default>
+                    <label>dog_labrador</label>
+                </value>
+                <value>
+                    <fullName>elephant_big</fullName>
+                    <default>false</default>
+                    <label>elephant_big</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
