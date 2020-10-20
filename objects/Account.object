@@ -711,6 +711,16 @@
                     <default>false</default>
                     <label>garage</label>
                 </value>
+                <value>
+                    <fullName>horse</fullName>
+                    <default>false</default>
+                    <label>horse</label>
+                </value>
+                <value>
+                    <fullName>intelligent</fullName>
+                    <default>false</default>
+                    <label>intelligent</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
