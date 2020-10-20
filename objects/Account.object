@@ -679,7 +679,7 @@
                 <value>
                     <fullName>cat</fullName>
                     <default>false</default>
-                    <label>cat</label>
+                    <label>cat_small</label>
                 </value>
                 <value>
                     <fullName>dog</fullName>
@@ -687,8 +687,40 @@
                     <label>dog</label>
                 </value>
                 <value>
+                    <fullName>elephant_big</fullName>
+                    <default>false</default>
+                    <label>elephant_big</label>
+                </value>
+                <value>
+                    <fullName>fountain</fullName>
+                    <default>false</default>
+                    <label>fountain</label>
+                </value>
+                <value>
+                    <fullName>garage</fullName>
+                    <default>false</default>
+                    <label>garage</label>
+                </value>
+                <value>
+                    <fullName>horse</fullName>
+                    <default>false</default>
+                    <label>horse</label>
+                </value>
+                <value>
+                    <fullName>intelligent</fullName>
+                    <default>false</default>
+                    <label>intelligent</label>
+                </value>
+                <value>
+                    <fullName>dog_lab</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>dog_lab</label>
+                </value>
+                <value>
                     <fullName>elephant</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>elephant</label>
                 </value>
             </valueSetDefinition>
