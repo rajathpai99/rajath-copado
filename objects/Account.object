@@ -701,6 +701,18 @@
                     <default>false</default>
                     <label>intelligent</label>
                 </value>
+                <value>
+                    <fullName>dog_lab</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>dog_lab</label>
+                </value>
+                <value>
+                    <fullName>elephant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>elephant</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
