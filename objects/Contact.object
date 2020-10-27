@@ -348,6 +348,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Contact_Age__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -475,6 +486,16 @@
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>test_backpro_field__c</fullName>
+        <externalId>false</externalId>
+        <label>test backpro field</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllContacts</fullName>
         <filterScope>Everything</filterScope>
@@ -489,6 +510,15 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>BulkMessageContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE3</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <label>Bulk_SMS_Contacts</label>
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>

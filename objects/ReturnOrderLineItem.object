@@ -130,94 +130,165 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>ActiveFromDate</fullName>
+        <fullName>AssetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ChangeOrderItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ActiveToDate</fullName>
+        <fullName>DestinationLocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>GrossUnitPrice</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>AreaCode</fullName>
+        <fullName>OrderItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProcessingPlan</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QuantityExpected</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>BestTimeToContactEndTime</fullName>
+        <fullName>QuantityReceived</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>BestTimeToContactStartTime</fullName>
+        <fullName>QuantityRejected</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>BestTimeToContactTimezone</fullName>
+        <fullName>QuantityReturned</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ExtensionNumber</fullName>
+        <fullName>QuantityUnitOfMeasure</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>FormattedInternationalPhoneNumber</fullName>
+        <fullName>ReasonForRejection</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>FormattedNationalPhoneNumber</fullName>
+        <fullName>ReasonForReturn</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>IsBusinessPhone</fullName>
+        <fullName>RepaymentMethod</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>IsFaxCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPersonalPhone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsPrimary</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsSmsCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
+        <fullName>ReturnOrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>PhoneType</fullName>
+        <fullName>SourceLocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>PreferenceRank</fullName>
+        <fullName>TotalAdjustmentAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TelephoneNumber</fullName>
+        <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>UsageType</fullName>
+        <fullName>TotalLineAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineTaxAmount</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TypeCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>TelephoneNumber</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>ReturnOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OrderItem</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product2</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SourceLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DestinationLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ChangeOrderItem</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ReturnOrder</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OrderItem</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product2</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SourceLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DestinationLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Asset</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ChangeOrderItem</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ReturnOrder</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OrderItem</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Product2</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SourceLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DestinationLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Asset</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ChangeOrderItem</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReturnOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OrderItem</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product2</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SourceLocation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DestinationLocation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ChangeOrderItem</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
