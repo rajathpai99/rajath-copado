@@ -238,21 +238,6 @@
     </fields>
     <fields>
         <fullName>ContactId</fullName>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>Contact.Email</field>
-                <operation>contains</operation>
-                <value>dummytest</value>
-            </filterItems>
-            <filterItems>
-                <field>Contact.Contact_Age__c</field>
-                <operation>greaterThan</operation>
-                <value>20</value>
-            </filterItems>
-            <infoMessage>Dummy Text - just to test</infoMessage>
-            <isOptional>false</isOptional>
-        </lookupFilter>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
