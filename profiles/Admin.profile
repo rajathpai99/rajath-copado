@@ -8240,6 +8240,14 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Contact Layout 360 Connect</layout>
+        <recordType>Contact.CRM_Work_SE</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout 360 Connect</layout>
+        <recordType>Contact.X360_Connect_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
         <recordType>Contact.CRM_Work</recordType>
     </layoutAssignments>
@@ -10491,6 +10499,16 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Contact.CRM_Work</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.CRM_Work_SE</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.X360_Connect_Contact</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
