@@ -1,0 +1,3114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Project_Lightning_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Project_Lightning_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Project_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Project_Compact_Layout</fullName>
+        <fields>Project_Manager_User__c</fields>
+        <fields>Contract_Administrator_User__c</fields>
+        <fields>SO_Created_Date__c</fields>
+        <fields>LIQUIDATED_DAMAGES__c</fields>
+        <fields>Terms_Conditions__c</fields>
+        <fields>Warranty_from_ship_mo__c</fields>
+        <label>Project Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Project object implemented in Q1 2012 for LMV Projects. Data is populated from SAP Sales Orders.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ADDITIONAL_NOTES__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Notes</label>
+        <length>128000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>APPROVAL_REQUIRED__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Set to TRUE if Approval Text equals one of the following values: &quot;Approval based on &apos;X&apos; weeks after receipt of drawings&quot; , &quot;Approval based on receipt of drawings&quot;, &quot;Drawing Approval Meeting&quot;</description>
+        <externalId>false</externalId>
+        <label>Approval Drawings Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Related Account linked to related Opportunity</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Actual_Spend__c</fullName>
+        <description>$ spent on project to date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>R&amp;D Project $ spent on project to date</inlineHelpText>
+        <label>Actual Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Application_Engineer__c</fullName>
+        <description>SAP: AE_NAME</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Application Engineer who quoted the project</inlineHelpText>
+        <label>Application Engineer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Text__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Mapped from SAP, defines if approval drawings are required and how they will conduct the approvals (i.e. x weeks, on-board review meeting, etc)</inlineHelpText>
+        <label>Approval Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BDM_NAME_1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>BDM Name who received credit. Related to Split 1 percentage.</inlineHelpText>
+        <label>BDM Name 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BDM_Name_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>BDM Name who received credit. Related to Split 2 percentage.</inlineHelpText>
+        <label>BDM Name 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BDM_Split_1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>% split of BDM credit</inlineHelpText>
+        <label>BDM Split 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>BDM_Split_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>% split of BDM credit</inlineHelpText>
+        <label>BDM Split 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Bill_to_Telebox__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header Bill To Master Telebox. This identifies if the customer is setup for outbound EDI.  Position 1 is the EDI invoice, Position 5 is the EDI order acknowledgment, Position 6 is the EDI advanced ship notice</inlineHelpText>
+        <label>Bill to Telebox</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Block__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Billing Document tab. Indicates if the entire sales document is blocked for billing.</inlineHelpText>
+        <label>Billing Block</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bond_Closed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Bond Closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When a Supply Bond, Performance Bond, or Parent Company Guarantee is closed in the GREAT tool, the box is checked.</inlineHelpText>
+        <label>Bond Closed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Budgeted_Cost__c</fullName>
+        <description>Planned and approved budget for project</description>
+        <externalId>false</externalId>
+        <inlineHelpText>R&amp;D Project planned and approved budget for project</inlineHelpText>
+        <label>Budgeted Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CERTIFIED_TEST_RESULTS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Certified Test Results Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>COMPAS_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header Texts - Notes brought over from COMPAS to SAP.  Only captures the first 255 characters.</inlineHelpText>
+        <label>COMPAS Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>COMPAS_Quote_No__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Order Data Tab. Purchase Order No. field.  Typically auto-populated from COMPAS to SAP upon transfer</inlineHelpText>
+        <label>COMPAS Quote #</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CONTRACT_ADMIN__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of contract administrator, mapped from SAP partners.</inlineHelpText>
+        <label>Contract Administrator</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CUSTOMERPO_DATE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date on the Customer PO</inlineHelpText>
+        <label>Customer PO Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Close_Out_Letter_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The letter informs the project has been formally closed and includes contacts for spare parts/service, warranty and future business. If formal documentation required (PAC – Project closure certificate),this should be submitted in lieu of the letter.</inlineHelpText>
+        <label>Close Out Letter Sent</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Commercial_Project_Manager_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Derived by the e-mail of the commercial project manager from SAP and matched with a related user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of commercial project manager, mapped from SAP partners.</inlineHelpText>
+        <label>Commercial Project Manager (User)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Commercial_Project_Manager__c</fullName>
+        <description>Name of commercial project manager, mapped from SAP.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of commercial project manager, mapped from SAP partners.</inlineHelpText>
+        <label>Commercial Project Manager</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Communication_Plan_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Communication plan has been created (Contacts are in SFDC.  Communication plan has been created and uploaded – if required)</inlineHelpText>
+        <label>Communication Plan - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Communication_Plan_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is set to TRUE when the Communication Plan - Actual is set.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Communication Plan - Actual is set.</inlineHelpText>
+        <label>Communication Plan - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Communication_Plan_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 14</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within two weeks after Handover</inlineHelpText>
+        <label>Communication Plan - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Administrator_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Derived by the e-mail of the contract administrator from SAP and matched with a related user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of contract administrator, mapped from SAP partners.</inlineHelpText>
+        <label>Contract Administrator (User)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>ProjectsCA</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Review_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Commercial contract (“WILL”) has been completed</inlineHelpText>
+        <label>Contract Review - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Review_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Contract Review - Actual is set.</inlineHelpText>
+        <label>Contract Review - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Review_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within one week after Handover</inlineHelpText>
+        <label>Contract Review - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Converted_Order_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Order Data Tab. Name field. Indicates the person who converted the order from the configuration tool to SAP.</inlineHelpText>
+        <label>Converted Order Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Approval_Cycle_Weeks__c</fullName>
+        <defaultValue>3</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText># of weeks allowed for the customer to review, approve, and release for manufacturing.  This is default to 3 and can be manually changed by PM/CA based on contract or agreement.</inlineHelpText>
+        <label>Customer Approval Cycle (Weeks)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Industry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_PO__c</fullName>
+        <description>SAP: BSTNK</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Customer PO# mapped from SAP header</inlineHelpText>
+        <label>Customer PO #</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Project_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Unique customer project name from SAP</inlineHelpText>
+        <label>Customer Project Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DATE_FILERECEIVED_FROMAE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the handover between AE and PM/CA occurred for PM100 gate (if applicable). Mapped from SAP.</inlineHelpText>
+        <label>Handover Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DATE_ORDER_ACKNOWLEDGEMENT__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the Order Acknowledgement was sent to the customer. Mapped from SAP</inlineHelpText>
+        <label>Order Acknowledgement Sent Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DATE_PORECEIVED__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date Siemens received the PO. Can be manually set if the project was not quoted within Salesforce.</inlineHelpText>
+        <label>Date PO Received - Manual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DSS_Manager__c</fullName>
+        <description>Digital Solutions &amp; Service Project Manager.</description>
+        <externalId>false</externalId>
+        <label>DSS Project Manager</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Date_PO_Received__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Order_Received__c</formula>
+        <inlineHelpText>Date Siemens received the PO from the PO portal. Mapped from the Opportunity.</inlineHelpText>
+        <label>Date PO Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Survey_sent__c</fullName>
+        <description>Whenever the &quot;Send Survey&quot; button is clicked this date field is filled out. The Date field is not manually editable. This field needs to be included into the common report types.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the &quot;send survey&quot; button was submitted.</inlineHelpText>
+        <label>Date Survey sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Delivery_Block__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Shipping Tab. Indicates if an entire order is blocked for delivery.</inlineHelpText>
+        <label>Delivery Block</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Distribution_Channel__c</fullName>
+        <description>SAP: ZDISTCH</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For 9462 business, translates which sales channel received credit for the order. Mapped from SAP.</inlineHelpText>
+        <label>Distribution Channel</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <description>SAP: SPART</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the business unit in SAP. Mapped from SAP.</inlineHelpText>
+        <label>Division</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Category__c</fullName>
+        <description>SAP: VBTYP</description>
+        <externalId>false</externalId>
+        <label>Document Category</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Management_Complexity__c</fullName>
+        <externalId>false</externalId>
+        <label>Document Management Complexity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Drawing_Recipient_Identified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be used in Report to show all Project with Sales Order Items that require Engineering Drawings where there is no &quot;Drawing Recipient&quot; listed in the Project Contacts. 
+Case : 651823</description>
+        <externalId>false</externalId>
+        <label>Drawing Recipient Identified?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Drawing_Reference__c</fullName>
+        <description>For MS, populated on record creation for new records, holds historical SO# for preexisting records. Created because we have to update SO# for Spiridon, but still need the old project # for the Drawings folders.</description>
+        <externalId>false</externalId>
+        <label>Drawing Reference</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EM_FSL_Work_Order_Found__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is the  flag to recognize that work order association was done correctly Via trigger.</description>
+        <externalId>false</externalId>
+        <label>Work Order Found</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EPC__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The Engineering, Procurement, &amp; Construction (EPC) firm (if applicable) mapped from SAP partner</inlineHelpText>
+        <label>EPC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EVA__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, the economic value added (EVA) is the estimate value created in excess of the spend.</inlineHelpText>
+        <label>EVA</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EXPORT_BOXING__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is export packaging (sea worthy) required?</inlineHelpText>
+        <label>Export Packaging Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Electrical_Contractor__c</fullName>
+        <externalId>false</externalId>
+        <label>Electrical Contractor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Commercial_Project_Manager__c</fullName>
+        <description>Reporting field for easily filtering teams using reports and dashboards</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field is populated by SAP idoc with the respective partner email address</inlineHelpText>
+        <label>Email Commercial Project Manager</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Contract_Administrator__c</fullName>
+        <description>Stores project contact email with role &quot;Contract Administrator&quot; for email alerts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field is populated by SAP idoc with the respective partner email address</inlineHelpText>
+        <label>Email Contract Administrator</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Siemens_PM__c</fullName>
+        <description>Stores Project Contact with role of &quot;Siemens Project Manager&quot; for email alerts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field is populated by SAP idoc with the respective partner email address</inlineHelpText>
+        <label>Email Siemens PM</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_Industry_Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT (Opportunity__r.End_User_Industry_Segment__c )</formula>
+        <inlineHelpText>Mapped from the related Opportunity End User Industry Segment</inlineHelpText>
+        <label>End User Industry Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_Industry__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.End_User_Industry__c)</formula>
+        <inlineHelpText>Mapped from the related Opportunity End User Industry</inlineHelpText>
+        <label>End User Industry</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>End User Market</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The end user (entity who will actually use the product/service) mapped from SAP partner</inlineHelpText>
+        <label>End User Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_SISIC_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>End User Siemens Industry Classification. Mapped from SAP.</inlineHelpText>
+        <label>End User SISIC Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_User_SISIC_Description__c</fullName>
+        <description>This field is populated by the IDOC from Castirom Orchestration (SO - Oppty)</description>
+        <externalId>false</externalId>
+        <label>End User SISIC Description</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Total_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Total Hours</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expedite_Code__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to define projects that require executive visibility (LDs, value, lead time, customer, or executive promise)</inlineHelpText>
+        <label>Expedite Code</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>External_Kickoff_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of External Kickoff Meeting</inlineHelpText>
+        <label>External Kickoff - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FREIGHT_TERMS__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Incoterms specifies who is responsible for paying for and managing the shipment, insurance, documentation, customs clearance, and other logistical activities.  Mapped from SAP</inlineHelpText>
+        <label>Incoterms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CIF</fullName>
+                    <default>false</default>
+                    <label>CIF</label>
+                </value>
+                <value>
+                    <fullName>Cost. Insurance And Freight</fullName>
+                    <default>false</default>
+                    <label>Cost. Insurance And Freight</label>
+                </value>
+                <value>
+                    <fullName>DDP</fullName>
+                    <default>false</default>
+                    <label>DDP</label>
+                </value>
+                <value>
+                    <fullName>DDU  Delivered Duty Unpaid</fullName>
+                    <default>false</default>
+                    <label>DDU  Delivered Duty Unpaid</label>
+                </value>
+                <value>
+                    <fullName>Delivered Duty Paid</fullName>
+                    <default>false</default>
+                    <label>Delivered Duty Paid</label>
+                </value>
+                <value>
+                    <fullName>EXW</fullName>
+                    <default>false</default>
+                    <label>EXW</label>
+                </value>
+                <value>
+                    <fullName>Ex-Works</fullName>
+                    <default>false</default>
+                    <label>Ex-Works</label>
+                </value>
+                <value>
+                    <fullName>FCA Destination</fullName>
+                    <default>false</default>
+                    <label>FCA Destination</label>
+                </value>
+                <value>
+                    <fullName>FCA Factory</fullName>
+                    <default>false</default>
+                    <label>FCA Factory</label>
+                </value>
+                <value>
+                    <fullName>FOB Factory</fullName>
+                    <default>false</default>
+                    <label>FOB Factory</label>
+                </value>
+                <value>
+                    <fullName>FOB GER Port</fullName>
+                    <default>false</default>
+                    <label>FOB GER Port</label>
+                </value>
+                <value>
+                    <fullName>FOB Jobsite</fullName>
+                    <default>false</default>
+                    <label>FOB Jobsite</label>
+                </value>
+                <value>
+                    <fullName>FOB Laredo</fullName>
+                    <default>false</default>
+                    <label>FOB Laredo</label>
+                </value>
+                <value>
+                    <fullName>FOB US Port</fullName>
+                    <default>false</default>
+                    <label>FOB US Port</label>
+                </value>
+                <value>
+                    <fullName>Free On Board Jobsite</fullName>
+                    <default>false</default>
+                    <label>Free On Board Jobsite</label>
+                </value>
+                <value>
+                    <fullName>Free On Board Laredo</fullName>
+                    <default>false</default>
+                    <label>Free On Board Laredo</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FY_Actual_Spend__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, FY $ spent on project to date</inlineHelpText>
+        <label>FY Actual Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FY_Budgeted_Cost__c</fullName>
+        <description>Field for approved budget for this FY</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, planned and approved budget for this fiscal year</inlineHelpText>
+        <label>FY Budgeted Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FY_Forecast_Spend__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, forecast of spending for rest of FY</inlineHelpText>
+        <label>FY Forecast Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Final_Project_Documentation_Compiled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Latest documentation is compiled and available in the project folder. May consist of all contract documents, drawings, third party information, manuals, emails, meeting minutes, shipping documents, relay files, invoices, etc.</inlineHelpText>
+        <label>Final Project Documentation Compiled</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fiscal_Year_SO_Created__c</fullName>
+        <description>Calculates the Fiscal Year the SO was created in SAP</description>
+        <externalId>false</externalId>
+        <formula>Text(YEAR(SO_Created_Date__c+92 ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Calculates the Fiscal Year the SO was created in SAP</inlineHelpText>
+        <label>Fiscal Year SO Created</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forecast_Spend__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, forecast of spending for remainder of project.</inlineHelpText>
+        <label>Forecast Spend</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Kickoff_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of Internal Kickoff Meeting</inlineHelpText>
+        <label>Internal Kickoff - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Order_Number__c</fullName>
+        <description>SAP Internal Order # assigned to project</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D Projects, SAP Internal Order # assigned to project</inlineHelpText>
+        <label>Internal Order Number</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoice_Partner_E_mail__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header Email Invoice Partner. The first email listed.</inlineHelpText>
+        <label>Invoice Partner E-mail</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Revenue_Review_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Invoicing and revenue terms and review of dates has been completed</inlineHelpText>
+        <label>Invoicing/Revenue Review - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Revenue_Review_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Invoicing/Revenue Review - Actual is set.</inlineHelpText>
+        <label>Invoicing/Revenue Review - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Revenue_Review_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within one week after Handover</inlineHelpText>
+        <label>Invoicing/Revenue Review - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Key_Take_Away_Items__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Key take away items can be positive notes or things to keep in mind regarding this particular customer / project type / supplier / etc.</inlineHelpText>
+        <label>Key Take Away Items</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LD_Additional_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Any notes related to liquidated damages. Mapped from SAP</inlineHelpText>
+        <label>LD Additional Notes</label>
+        <length>128000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LD_PER_DAY_DELIVERY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for delivery of goods/services, the amount per day.  Mapped from SAP</inlineHelpText>
+        <label>Delivery LD&apos;s Amount (per Day)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>LD_PER_DAY_DRWG__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for submittal of drawings, the amount per day.  Mapped from SAP</inlineHelpText>
+        <label>Drawing LD&apos;s Amount (per Day)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>LD_START_DATE_DELIVERY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for delivery of goods/services, the date in which the LDs will begin.  Mapped from SAP</inlineHelpText>
+        <label>Delivery LD&apos;s Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LD_START_DATE_DRWG__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for submittal of drawings, the date in which the LDs will begin.  Mapped from SAP</inlineHelpText>
+        <label>Drawing LD&apos;s Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LIQUIDATED_DAMAGES__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked true if Liquidated Damages apply on this contract.</inlineHelpText>
+        <label>Liquidated Damages Apply</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LOC_Expiration_Date__c</fullName>
+        <description>Letter of credit expiration date. Mapped from SAP.</description>
+        <externalId>false</externalId>
+        <label>LOC Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Project_Review_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of the last project review</inlineHelpText>
+        <label>Last Project Review Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Business_Unit__c</fullName>
+        <description>The business unit that is taking the overall lead of the project - specifically project management and the face to the customer.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The business unit that is taking the overall lead of the project - specifically project management and the face to the customer.</inlineHelpText>
+        <label>Lead Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EM CS</fullName>
+                    <default>false</default>
+                    <label>EM CS</label>
+                </value>
+                <value>
+                    <fullName>EM DG</fullName>
+                    <default>false</default>
+                    <label>EM DG</label>
+                </value>
+                <value>
+                    <fullName>EM LP</fullName>
+                    <default>false</default>
+                    <label>EM LP</label>
+                </value>
+                <value>
+                    <fullName>EM MS</fullName>
+                    <default>false</default>
+                    <label>EM MS</label>
+                </value>
+                <value>
+                    <fullName>PD LD</fullName>
+                    <default>false</default>
+                    <label>PD LD</label>
+                </value>
+                <value>
+                    <fullName>MS-US</fullName>
+                    <default>false</default>
+                    <label>MS-US</label>
+                </value>
+                <value>
+                    <fullName>MS-MEX</fullName>
+                    <default>false</default>
+                    <label>MS-MEX</label>
+                </value>
+                <value>
+                    <fullName>MS-CAN</fullName>
+                    <default>false</default>
+                    <label>MS-CAN</label>
+                </value>
+                <value>
+                    <fullName>MS-AAN</fullName>
+                    <default>false</default>
+                    <label>MS-AAN</label>
+                </value>
+                <value>
+                    <fullName>LP-US</fullName>
+                    <default>false</default>
+                    <label>LP-US</label>
+                </value>
+                <value>
+                    <fullName>LP-CAN</fullName>
+                    <default>false</default>
+                    <label>LP-CAN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lessons_Learned_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Lessons learned should be documented in Salesforce using the Lessons Learned panel at the Project level. After adding Lessons learned, manually check the Lessons Learned checkbox.</inlineHelpText>
+        <label>Lessons Learned Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Letter_of_Credit_Closed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Letter of Credit Closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When a Letter of Credit is closed in the GREAT tool, the box is checked by the CA or CPM.</inlineHelpText>
+        <label>Letter of Credit Closed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Open_NCRs__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked TRUE if NO nonconformance case is open related to the project.</inlineHelpText>
+        <label>No Open NCRs</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_of_Project_Contacts__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Project Contacts related to this Project</inlineHelpText>
+        <label># of Survey Contacts</label>
+        <summaryFilterItems>
+            <field>Project_Contact__c.Survey_Required__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_Contact__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Drawing_Recipients__c</fullName>
+        <description>Number indicating number of Drawing Recipients (from Project contacts). Should be updated whenever project or project contacts are modified / added.</description>
+        <externalId>false</externalId>
+        <label>Number of Drawing Recipients</label>
+        <summarizedField>Project_Contact__c.Drawing_Recipients_Value__c</summarizedField>
+        <summaryForeignKey>Project_Contact__c.Project__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Surveys_Required__c</fullName>
+        <description># of Project Contacts with &quot;Survey Required&quot; checked as TRUE</description>
+        <externalId>false</externalId>
+        <label>Number of Surveys Required</label>
+        <summarizedField>Project_Contact__c.Survey_Required_Value__c</summarizedField>
+        <summaryForeignKey>Project_Contact__c.Project__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OVERALL_CAP_ON_LDS__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall LD Cap (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Opportunity record from which this project originated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Related Opportunity for which this project was quoted. Linked by entering the SF# into SAP header.</inlineHelpText>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Order_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Overall_Status__c</fullName>
+        <description>Overall Status</description>
+        <externalId>false</externalId>
+        <label>Overall Status</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PAYMENT_TERMS__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>When a payment is expected based on contract terms.</inlineHelpText>
+        <label>Payment Terms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NET 30</fullName>
+                    <default>false</default>
+                    <label>NET 30</label>
+                </value>
+                <value>
+                    <fullName>NET 45</fullName>
+                    <default>false</default>
+                    <label>NET 45</label>
+                </value>
+                <value>
+                    <fullName>NET 60</fullName>
+                    <default>false</default>
+                    <label>NET 60</label>
+                </value>
+                <value>
+                    <fullName>NET 90</fullName>
+                    <default>false</default>
+                    <label>NET 90</label>
+                </value>
+                <value>
+                    <fullName>ICC</fullName>
+                    <default>false</default>
+                    <label>ICC</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PLM__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product Manager</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product Manager</inlineHelpText>
+        <label>PLM</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PM_Siemens_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Overall PM@Siemens project lifecycle status</inlineHelpText>
+        <label>PM@Siemens Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PM080</fullName>
+                    <default>false</default>
+                    <label>PM080</label>
+                </value>
+                <value>
+                    <fullName>PM200</fullName>
+                    <default>false</default>
+                    <label>PM200</label>
+                </value>
+                <value>
+                    <fullName>PM300</fullName>
+                    <default>false</default>
+                    <label>PM300</label>
+                </value>
+                <value>
+                    <fullName>PM400</fullName>
+                    <default>false</default>
+                    <label>PM400</label>
+                </value>
+                <value>
+                    <fullName>PM550</fullName>
+                    <default>false</default>
+                    <label>PM550</label>
+                </value>
+                <value>
+                    <fullName>PM650</fullName>
+                    <default>false</default>
+                    <label>PM650</label>
+                </value>
+                <value>
+                    <fullName>PM670</fullName>
+                    <default>false</default>
+                    <label>PM670</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PROJECT_MANAGER__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of project manager, mapped from SAP partners.</inlineHelpText>
+        <label>Project Manager</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_CUST_PAID_INVOICES__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>A project can only be closed if all items have been invoiced and all invoices have been paid, refunds have been processed, vendor PO&apos;s closed out and the backlog is adjusted.</inlineHelpText>
+        <label>Project is Commercially closed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_DOCUMENT_STATUS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>All O&amp;M manuals or any other required documentation has been sent and accepted by the customer.</inlineHelpText>
+        <label>All Documentation Delivered</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LETTER_OF_CREDIT_ACTUAL_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Letter of Credit Actual Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LETTER_OF_CREDIT_PLANNED_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Letter of Credit Planned Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LETTER_OF_CREDIT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Letter of Credit Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LIEN_WAIVERS_ACTUAL_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Lien Waivers Actual Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LIEN_WAIVERS_PLANNED_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Lien Waivers Planned Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LIEN_WAIVERS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lien Waivers Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_LOC_LIEU_OF_RETENTION__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Letter of Credit in Lieu of Payment Rete</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_PERFORMANCE_BOND_ACTUAL_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Performance Bond Actual Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_PERFORMANCE_BOND__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Performance Bond Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_POC_PROJECT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>POC Project Accounting</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_SUPPLY_BOND_ACTUAL_DATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Supply Bond Actual Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PROJ_MGMT_SUPPLY_BOND__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Supply Bond Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Performance_Bond_Expiration_Date__c</fullName>
+        <description>Performance bond expiration date mapped from SAP Sales Order.</description>
+        <externalId>false</externalId>
+        <label>Performance Bond Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Product_Focus__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, the product focus</inlineHelpText>
+        <label>Product Focus</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CMR</fullName>
+                    <default>false</default>
+                    <label>CMR</label>
+                </value>
+                <value>
+                    <fullName>Fusesaver</fullName>
+                    <default>false</default>
+                    <label>Fusesaver</label>
+                </value>
+                <value>
+                    <fullName>GIS</fullName>
+                    <default>false</default>
+                    <label>GIS</label>
+                </value>
+                <value>
+                    <fullName>GM38</fullName>
+                    <default>false</default>
+                    <label>GM38</label>
+                </value>
+                <value>
+                    <fullName>GM-SG</fullName>
+                    <default>false</default>
+                    <label>GM-SG</label>
+                </value>
+                <value>
+                    <fullName>LIS</fullName>
+                    <default>false</default>
+                    <label>LIS</label>
+                </value>
+                <value>
+                    <fullName>LV MCC</fullName>
+                    <default>false</default>
+                    <label>LV MCC</label>
+                </value>
+                <value>
+                    <fullName>New Product</fullName>
+                    <default>false</default>
+                    <label>New Product</label>
+                </value>
+                <value>
+                    <fullName>SDR</fullName>
+                    <default>false</default>
+                    <label>SDR</label>
+                </value>
+                <value>
+                    <fullName>SDV</fullName>
+                    <default>false</default>
+                    <label>SDV</label>
+                </value>
+                <value>
+                    <fullName>SIMOVAC</fullName>
+                    <default>false</default>
+                    <label>SIMOVAC</label>
+                </value>
+                <value>
+                    <fullName>Switches</fullName>
+                    <default>false</default>
+                    <label>Switches</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Profit_Center__c</fullName>
+        <description>SAP: PRCTR_NAME. Returns the profit center name of the first line item on the SAP order.</description>
+        <externalId>false</externalId>
+        <label>Profit Center</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Closed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>After completion of all project closure activities, manually check the “Project Closed” checkbox.</inlineHelpText>
+        <label>Project Closed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Complexity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>In an effort to better clarify project management load, we will assign a Project Complexity code to all PM managed projects.  The complexity scale ranges from 0 to 5.</inlineHelpText>
+        <label>Project Complexity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>General description of project</inlineHelpText>
+        <label>Project Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Project_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Project_Initiation_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(AND( Scope_Review_Completed__c , 
+Contract_Review_Completed__c, 
+Schedule_Review_Created_Completed__c, 
+Invoicing_Revenue_Review_Completed__c, 
+Resource_Review_Completed__c, 
+Communication_Plan_Completed__c, 
+Risk_Assessment_Completed__c),true,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Automatic check when all actual dates are populated</inlineHelpText>
+        <label>Project Initiation Complete</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Initiation_Required__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( 
+     AND(NOT(ISBLANK(PROJECT_MANAGER__c)), 
+               OR(LIQUIDATED_DAMAGES__c = True,
+                  PROJ_MGMT_LETTER_OF_CREDIT__c = True,
+                  PROJ_MGMT_LIEN_WAIVERS__c = True,
+                  PROJ_MGMT_PERFORMANCE_BOND__c = True,
+                  PROJ_MGMT_SUPPLY_BOND__c = TRUE,
+                  Total_Value__c &gt; 1000000)
+         ),
+     true,
+     false
+  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>&quot;For projects assigned a Project Manager and one of the following conditions apply:
+Liquidated Damages Apply, Commercial Documents Apply, Total Value is greater than $1M, or High Visibility Project.&quot;</inlineHelpText>
+        <label>Project Initiation Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Management_Comments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Comments for the Project Manager to keep project comments.</inlineHelpText>
+        <label>Project Management Comments</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Project_Manager_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Project Manager, so reports can be run against users instead of a text field. Text field is still used from SAP.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of project manager, mapped from SAP partners.</inlineHelpText>
+        <label>Project Manager (User)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>ProjectsPM</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Project_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Order_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Order Data Tab. Identifies how the order was entered into SAP. Typical classifications include; Manual, IPC - VC Application (COMPAS), EDI, iMall.</inlineHelpText>
+        <label>Purchase Order Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QMIP__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D project, Quality Manager in Projects</inlineHelpText>
+        <label>QMIP</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quote_Valid_Till__c</fullName>
+        <description>SAP: QT_VALID_TO</description>
+        <externalId>false</externalId>
+        <label>Quote Valid Till</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RISK_CONTINGENCY__c</fullName>
+        <externalId>false</externalId>
+        <label>Risk Contingency (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>R_D_Engineer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D project, R&amp;D Engineer lead</inlineHelpText>
+        <label>R&amp;D Engineer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>R_D_Project_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D project, R&amp;D Project Manager</inlineHelpText>
+        <label>R&amp;D Project Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Projects4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Delivery_Date__c</fullName>
+        <description>SAP: VDATU</description>
+        <externalId>false</externalId>
+        <label>Requested Delivery Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Resource_Review_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Resource requirements (internal and external) has been completed and requests have been made</inlineHelpText>
+        <label>Resource Review - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Resource_Review_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Resource Review - Actual is set.</inlineHelpText>
+        <label>Resource Review - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Resource_Review_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c +14</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within two weeks after Handover</inlineHelpText>
+        <label>Resource Review - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Risk_Assessment_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Risk assessment has been completed and risks have been documented</inlineHelpText>
+        <label>Risk Assessment - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Risk_Assessment_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Risk Assessment - Actual is set.</inlineHelpText>
+        <label>Risk Assessment - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Risk_Assessment_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 14</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within two weeks after Handover</inlineHelpText>
+        <label>Risk Assessment - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SF_Quote__c</fullName>
+        <description>SAP: IHREZ</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SF Quote# mapped from SAP order header and triggers the relationship to the Opportunity</inlineHelpText>
+        <label>SF Quote #</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Created_Date__c</fullName>
+        <description>SAP: ERDAT</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the Sales order was created in SAP.</inlineHelpText>
+        <label>SO Created Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Last_Modified_Date__c</fullName>
+        <description>SAP: AEDAT</description>
+        <externalId>false</externalId>
+        <label>SO Last Modified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SPECIFIC_CAP_ON_LDS_DELIVERY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for delivery of goods/services, the % cap per the contract.  Mapped from SAP</inlineHelpText>
+        <label>Delivery LD&apos;s Cap (%)</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SPECIFIC_CAP_ON_LDS_DRWG__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If liquidated damages apply for submittal of drawings, the % cap per the contract.  Mapped from SAP</inlineHelpText>
+        <label>Drawing LD&apos;s Cap (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SURVEY_ISSUED__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked TRUE when the Send Survey action is executed</inlineHelpText>
+        <label>Survey Issued</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MS-US</fullName>
+                    <default>false</default>
+                    <label>MS-US</label>
+                </value>
+                <value>
+                    <fullName>MS-MEX</fullName>
+                    <default>false</default>
+                    <label>MS-MEX</label>
+                </value>
+                <value>
+                    <fullName>MS-CAN</fullName>
+                    <default>false</default>
+                    <label>MS-CAN</label>
+                </value>
+                <value>
+                    <fullName>MS-AAN</fullName>
+                    <default>false</default>
+                    <label>MS-AAN</label>
+                </value>
+                <value>
+                    <fullName>LP-US</fullName>
+                    <default>false</default>
+                    <label>LP-US</label>
+                </value>
+                <value>
+                    <fullName>LP-CAN</fullName>
+                    <default>false</default>
+                    <label>LP-CAN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_District__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Sales Tab. In 9462, it is used primarily to identify domestic vs. international orders.  In 5620, it is primarily used to identify the sold to sales region.</inlineHelpText>
+        <label>Sales District</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Employee_Email__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Partner Tab. Sales Employee Partner.  Brings over the e-mail in the order partner record.  If blank, it looks for a value in the HR record.</inlineHelpText>
+        <label>Sales Employee Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Employee_Name_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of sales employee, mapped from SAP partners.</inlineHelpText>
+        <label>Sales Employee Name 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Employee_Split_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Employee Split 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Employee_Split_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Employee Split 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Employee__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of sales employee, mapped from SAP partners.</inlineHelpText>
+        <label>Sales Employee</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Group</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Office__c</fullName>
+        <description>SAP: SALES_OFFICE</description>
+        <externalId>false</externalId>
+        <label>Sales Office</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Order__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>SAP Sales Order Number. Required for most projects, since projects originate from a Sales Order. SAP: VBELN</description>
+        <externalId>true</externalId>
+        <inlineHelpText>SAP Sales Order</inlineHelpText>
+        <label>Sales Order #</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Organization__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Sales Tab. Indicates ownership of the order.
+P100 for 9462
+E100 for 5620</inlineHelpText>
+        <label>Sales Organization</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Partner__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Header - Partners Tab. Indicates the sales employee identified on the order.</inlineHelpText>
+        <label>Sales Partner</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Schedule_Review_Created_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Schedule and creation of initial external schedule (if required) has been completed</inlineHelpText>
+        <label>Schedule Review/Created - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Schedule_Review_Created_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Schedule Review - Actual is set.</inlineHelpText>
+        <label>Schedule Review/Created - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Schedule_Review_Created_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within one week after Handover</inlineHelpText>
+        <label>Schedule Review/Created - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scope_Delivered_and_Invoiced_Actual__c</fullName>
+        <description>Field to be set based on when the Scope Delivered and Invoiced (Checkbox) is set</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Field to be set based on when the Scope Delivered and Invoiced (Checkbox) is set</inlineHelpText>
+        <label>Scope Delivered and Invoiced - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scope_Delivered_and_Invoiced__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Scope Delivered and Invoiced</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Scope_Review_Actual__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Technical scope of project (including submittal procedures and documentation) has been completed</inlineHelpText>
+        <label>Scope Review - Actual</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scope_Review_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>This is set to TRUE when the Scope Review - Actual is set.</inlineHelpText>
+        <label>Scope Review - Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Scope_Review_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE_FILERECEIVED_FROMAE__c + 7</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Within one week after Handover</inlineHelpText>
+        <label>Scope Review - Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Segmented_Order_Value__c</fullName>
+        <description>To represent the entire customer contract value when the order is a segmented project</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To represent the entire customer contract value when the order is a segmented project</inlineHelpText>
+        <label>Segmented Order Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Segmented_Project__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Marked true when the project is part of a segmented order with another business unit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Marked true when the project is part of a segmented order with another business unit</inlineHelpText>
+        <label>Segmented Project</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Service_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Order #</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_Freight_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Prepaid &amp; Add The Seller prepays the transportation charges, but adds the charges to the invoice for reimbursement from the Buyer. Prepaid &amp; Allow The Seller prepays the transportation charges and they are already included in the contract price.</inlineHelpText>
+        <label>Ship Freight Amount</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Notes__c</fullName>
+        <description>As per [EM-1524] US we created. 
+coming from SAP</description>
+        <externalId>false</externalId>
+        <label>Ship To Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Shipping instructions from the Header level. If Shipping Instructions Long is blank, then will pull YE02 External Shipping Instructions</inlineHelpText>
+        <label>Shipping Instructions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Site_Comments__c</fullName>
+        <description>As per [EM-1524] US we created. 
+coming from SAP</description>
+        <externalId>false</externalId>
+        <label>Site Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Contact_Email__c</fullName>
+        <description>As per [EM-1524] US we created. 
+coming from SAP</description>
+        <externalId>false</externalId>
+        <label>Site Contact Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Contact_Name__c</fullName>
+        <description>As per [EM-1524] US we created. 
+coming from SAP</description>
+        <externalId>false</externalId>
+        <label>Site Contact Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Site_Contact_Phone__c</fullName>
+        <description>As per [EM-1524] US we created. 
+coming from SAP</description>
+        <externalId>false</externalId>
+        <label>Site Contact Phone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_City__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The city of the Sold to Customer. Mapped from SAP customer master.</inlineHelpText>
+        <label>Sold To City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_Customer_Classification__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Sold To Customer Master (VD03) - Marketing Tab. Identifies Government vs. Non Government</inlineHelpText>
+        <label>Sold To Customer Classification</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_IFA__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The related IFA # for the Sold To partner in SAP.</inlineHelpText>
+        <label>Sold To IFA #</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_Party_Name__c</fullName>
+        <description>SAP: KUNNR_Name</description>
+        <externalId>false</externalId>
+        <label>Sold To Party Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_Party_Number__c</fullName>
+        <description>SAP: KUNNR</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The related Sold To Party SAP number</inlineHelpText>
+        <label>Sold To Party Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_State__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The related Sold to Party state</inlineHelpText>
+        <label>Sold To State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_ZIP_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The related Sold to Party zipcode</inlineHelpText>
+        <label>Sold To ZIP Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_to_Industry_Sub_segment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Sold To Customer Master (VD03) - Marketing Tab. Defines the industry sub-segement for the Sold To Customer</inlineHelpText>
+        <label>Sold to Industry Sub-segment</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_to_Industry__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Sold To Customer Master (VD03) - Marketing Tab. Defines the industry for the Sold To Customer</inlineHelpText>
+        <label>Sold to Industry</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_to_Nielson_ID__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SAP Sold To Customer Master (VD03) - Marketing Tab. Specifies a regional division according to the market categories created by the A. C. Nielsen company.  Use to create a market analysis of your customers.</inlineHelpText>
+        <label>Sold to Nielson ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Special_Billing_Requirements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Any requirements outside of the normal invoicing process (print and mail).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Any requirements outside of the normal invoicing process (print and mail).</inlineHelpText>
+        <label>Special Billing Requirements</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For R&amp;D projects, the status of the project</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>true</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supply_Bond_Expiration_Date__c</fullName>
+        <description>Supply Bond Expiration Date mapped from SAP Sales Order</description>
+        <externalId>false</externalId>
+        <label>Supply Bond Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Terms_Conditions__c</fullName>
+        <description>Set by ICLMV_OCRtoPCR_TriggerAction which copies the T&amp;C value from Opportunity to the Project when the object relationship is set.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The terms and conditions used for the contract. Copies from the related Opportunty but can be changed on the Project.</inlineHelpText>
+        <label>Terms &amp; Conditions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Siemens ZRG Internal</fullName>
+                    <default>false</default>
+                    <label>Siemens ZRG Internal</label>
+                </value>
+                <value>
+                    <fullName>Siemens Industry, Inc. Terms &amp; Conditions</fullName>
+                    <default>false</default>
+                    <label>Siemens Industry, Inc. Terms &amp; Conditions</label>
+                </value>
+                <value>
+                    <fullName>Customer&apos;s Terms &amp; Conditions</fullName>
+                    <default>false</default>
+                    <label>Customer&apos;s Terms &amp; Conditions</label>
+                </value>
+                <value>
+                    <fullName>Siemens and Customer Framework Agreement</fullName>
+                    <default>false</default>
+                    <label>Siemens and Customer Framework Agreement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Value__c</fullName>
+        <description>The value of the related sales order items. This logic is maintained in the middleware (Biztalk).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total value of the project</inlineHelpText>
+        <label>Total Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Transfer_of_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR( ISPICKVAL(Terms_Conditions__c, &apos;Siemens ZRG Internal&apos;) , ISPICKVAL(Terms_Conditions__c, &apos;Siemens Industry, Inc. Terms &amp; Conditions&apos;) ) , &apos;Shipping Point&apos; , &apos;Destination&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If Terms &amp; Conditions  are Siemens ZRG Internal or Siemens Industry, Inc. Terms &amp; Conditions, then Transfer of Title happens upon Shipping Point , otherwise Destination</inlineHelpText>
+        <label>Transfer of Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WARRANTY_PERIOD__c</fullName>
+        <description>Changed the name from Warranty Period to Warranty NOtes. Ref : EM 1675</description>
+        <externalId>false</externalId>
+        <inlineHelpText>General warranty periord and notes. Mapped from SAP</inlineHelpText>
+        <label>Warranty Notes</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WITNESS_TEST_REQD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a FAT (Factory Acceptance Test) required as part of the scope? Mapped from SAP</inlineHelpText>
+        <label>Witness Test Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_SO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether a sales order is a warranty sales order.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this is a warranty sales order</inlineHelpText>
+        <label>Warranty SO</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_from_Install_mo__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The term of the warranty in number of months from install, example 12. Mapped from SAP</inlineHelpText>
+        <label>Warranty from Install (mo.)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warranty_from_ship_mo__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The term of the warranty in number of months from shipment, for example 18. Mapped from SAP</inlineHelpText>
+        <label>Warranty from ship (mo.)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Project</label>
+    <nameField>
+        <label>Sales Order #</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Projects</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Sold_To_Party_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Value__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DATE_PORECEIVED__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Customer_PO__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SF_Quote__c</customTabListAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>SF_Quote__c</searchFilterFields>
+        <searchFilterFields>Customer_PO__c</searchFilterFields>
+        <searchResultsAdditionalFields>Sold_To_Party_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customer_Project_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Customer_PO__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SF_Quote__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contract_Administrator_User__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Project_Manager_User__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Commercial_Project_Manager_Lookup__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Account_Project_History</fullName>
+        <availability>online</availability>
+        <description>Opens link to report with &quot;Customer Sold To&quot; populated in the filter criteria param (fv0)</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Account Project History</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/r/Report/{!$Label.AccProjHis_OrgURL}/view?fv0={!Project__c.Sold_To_Party_Number__c}</url>
+    </webLinks>
+</CustomObject>
