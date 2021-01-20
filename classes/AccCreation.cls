@@ -1,13 +1,13 @@
-public class AccCreation {
+public class AccCreation{
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
         for( Integer i=0 ; i<20 ; i++ ) {
-            Account acc=new Account();
-            acc.Name = 'PaiCopa'+i+'Rajath';
-            acc.Fax = '123paicopa';
-            acc.Website='https://trailhead.salesforce.com';
-            accList.add(acc);
+            Account act=new Account();
+            act.Name = 'PaiCopa'+i+'Rajath';
+            act.Fax = '123paicopa';
+            act.Website='https://trailhead.salesforce.com';
+            accList.add(act);
         }
         if(accList.size() > 0) {
             insert  accList;
