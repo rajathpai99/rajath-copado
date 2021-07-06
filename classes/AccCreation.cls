@@ -3,11 +3,11 @@ public class AccCreation {
         try{
         List<Account> accList= new List<Account>();
         for( Integer i=0 ; i<20 ; i++ ) {
-            Account acc=new Account();
-            acc.Name = 'PaiCopa'+i+'Rajath';
-            acc.Fax = '123paicopa';
-            acc.Website='https://trailhead.salesforce.com';
-            accList.add(acc);
+            Account act1_upd=new Account();
+            act1_upd.Name = 'PaiCopa'+i+'Rajath';
+            act1_upd.Fax = '123paicopa';
+            act1_upd.Website='https://twitter.com';
+            accList.add(act1_upd);
         }
         if(accList.size() > 0) {
             insert  accList;

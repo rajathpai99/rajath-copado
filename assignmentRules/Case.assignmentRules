@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>rpai@copado.com.production</assignedTo>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +23,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>rpai@copado.com.production</assignedTo>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +42,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>rpai@copado.com.production</assignedTo>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +61,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>rpai@copado.com.production</assignedTo>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,13 +80,18 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>rpai@copado.com.production</assignedTo>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
                 <operation>contains</operation>
                 <value>Partner</value>
             </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>{!Environment.RajathPai_Username}</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>ISPICKVAL(Type,&apos;01&apos;)</formula>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

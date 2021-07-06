@@ -98,7 +98,17 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>compact_custom</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>compact_custom</fullName>
+        <fields>AccountId</fields>
+        <fields>ContactId</fields>
+        <fields>Price</fields>
+        <fields>Product2Id</fields>
+        <fields>Quantity</fields>
+        <fields>Status</fields>
+        <label>compact - custom</label>
+    </compactLayouts>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
