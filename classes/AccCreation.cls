@@ -11,7 +11,7 @@ public class AccCreation {
         }
         if(accList.size() > 0) {
             insert  accList;
-            //test comment 16Sep21 - updated(revert)
+            //test comment 16Sep21
         }
     }
     catch(Exception ex){
