@@ -7,4 +7,11 @@
         <shortDescription>test label 3</shortDescription>
         <value>{!Environment.rpai-var-1}</value>
     </labels>
+    <labels>
+        <fullName>test_label_4</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>test label 4</shortDescription>
+        <value>rpai.a@copado.com</value>
+    </labels>
 </CustomLabels>
