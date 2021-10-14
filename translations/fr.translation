@@ -8,4 +8,8 @@
         <label>test_label2_fr</label>
         <name>test_label_2</name>
     </customLabels>
+    <customLabels>
+        <label>test_label_3_fr</label>
+        <name>test_label_3</name>
+    </customLabels>
 </Translations>
