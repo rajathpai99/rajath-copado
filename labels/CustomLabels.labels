@@ -14,4 +14,11 @@
         <shortDescription>test label 2</shortDescription>
         <value>test_label2</value>
     </labels>
+    <labels>
+        <fullName>test_label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>test label 3</shortDescription>
+        <value>rpai.a@copado.com.DEV</value>
+    </labels>
 </CustomLabels>
