@@ -19,7 +19,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>test label 3</shortDescription>
-        <value>{!Environment.rpai-var-1}</value>
+        <value>rpai.a@copado.com.DEV</value>
     </labels>
     <labels>
         <fullName>test_label_4</fullName>
