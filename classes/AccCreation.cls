@@ -8,6 +8,8 @@ public class AccCreation {
             act1_upd.Fax = '123paicopa';
             act1_upd.Website='https://twitter.com';
             accList.add(act1_upd);
+            //test comment 29Dec21 v1
+            //test comment 29Dec21 v2
         }
         if(accList.size() > 0) {
             insert  accList;
@@ -15,9 +17,7 @@ public class AccCreation {
         }
     }
     catch(Exception ex){
-        system.debug('Exception_Line_No--->'+ex.getLineNumber());
-        system.debug('Exception_Message--->'+ex.getMessage());
+
     }
     }
-    //test conflict dev1
 }
