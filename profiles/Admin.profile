@@ -101,10 +101,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccCreation</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountCreation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
