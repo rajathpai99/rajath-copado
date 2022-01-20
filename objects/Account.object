@@ -647,8 +647,10 @@
     </fields>
     <fields>
         <fullName>test_3__c</fullName>
+        <description>Dummy description</description>
         <externalId>false</externalId>
-        <label>test 3</label>
+        <inlineHelpText>Testing - updated version</inlineHelpText>
+        <label>test 3 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
