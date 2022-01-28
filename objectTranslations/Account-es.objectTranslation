@@ -32,4 +32,20 @@
             <translation></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label></label>
+        <name>test_picklist__c</name>
+        <picklistValues>
+            <masterLabel>jackfruit</masterLabel>
+            <translation>yaca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>orange</masterLabel>
+            <translation>naranja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pineapple</masterLabel>
+            <translation>pina</translation>
+        </picklistValues>
+    </fields>
 </CustomObjectTranslation>
