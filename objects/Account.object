@@ -674,7 +674,7 @@
     </fields>
     <fields>
         <fullName>test_3__c</fullName>
-        <description>Dummy description</description>
+        <description>Dummy description version 1</description>
         <externalId>false</externalId>
         <inlineHelpText>Testing - updated version</inlineHelpText>
         <label>test 3 upd</label>
