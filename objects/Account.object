@@ -184,16 +184,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Acc_test_rec_1</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Acc_test_rec_1</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -227,7 +233,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>Read</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -634,13 +640,76 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>test_3__c</fullName>
+        <fullName>test_1__c</fullName>
         <externalId>false</externalId>
-        <label>test 3</label>
+        <label>test 1</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>test 2</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_3__c</fullName>
+        <description>Dummy description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Testing - updated version</inlineHelpText>
+        <label>test 3 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_4__c</fullName>
+        <externalId>false</externalId>
+        <label>test 4</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_5__c</fullName>
+        <externalId>false</externalId>
+        <label>test 5</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_7__c</fullName>
+        <externalId>false</externalId>
+        <label>test 7 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_8__c</fullName>
+        <externalId>false</externalId>
+        <label>test 8</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -667,7 +736,7 @@
                 <value>
                     <fullName>cat</fullName>
                     <default>false</default>
-                    <label>cat</label>
+                    <label>cat_small</label>
                 </value>
                 <value>
                     <fullName>dog</fullName>
@@ -675,9 +744,58 @@
                     <label>dog</label>
                 </value>
                 <value>
-                    <fullName>elephant</fullName>
+                    <fullName>elephant_big</fullName>
                     <default>false</default>
-                    <label>elephant</label>
+                    <label>elephant_big</label>
+                </value>
+                <value>
+                    <fullName>fountain</fullName>
+                    <default>false</default>
+                    <label>fountain</label>
+                </value>
+                <value>
+                    <fullName>garage</fullName>
+                    <default>false</default>
+                    <label>garage</label>
+                </value>
+                <value>
+                    <fullName>horse</fullName>
+                    <default>false</default>
+                    <label>horse</label>
+                </value>
+                <value>
+                    <fullName>intelligent</fullName>
+                    <default>false</default>
+                    <label>intelligent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>test_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>test picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>orange</fullName>
+                    <default>false</default>
+                    <label>orange</label>
+                </value>
+                <value>
+                    <fullName>jackfruit</fullName>
+                    <default>false</default>
+                    <label>jackfruit</label>
+                </value>
+                <value>
+                    <fullName>pineapple</fullName>
+                    <default>false</default>
+                    <label>pineapple</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

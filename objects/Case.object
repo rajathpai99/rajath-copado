@@ -252,6 +252,40 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Title</field>
+                <operation>contains</operation>
+                <value>test</value>
+            </filterItems>
+            <filterItems>
+                <field>Contact.Contact_Age__c</field>
+                <operation>greaterThan</operation>
+                <value>20</value>
+            </filterItems>
+            <filterItems>
+                <field>Contact.Email</field>
+                <operation>contains</operation>
+                <value>dummytest</value>
+            </filterItems>
+            <infoMessage>Note: Random text</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
