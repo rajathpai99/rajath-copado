@@ -3187,6 +3187,7 @@ coming from SAP</description>
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
+
         <masterLabel>Project Review</masterLabel>
         <openType>newWindow</openType>
         <position>none</position>
