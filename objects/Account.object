@@ -495,6 +495,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>TR_BP_3__c</fullName>
+        <description>updated version 3</description>
+        <externalId>false</externalId>
+        <label>TR BP 3</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
