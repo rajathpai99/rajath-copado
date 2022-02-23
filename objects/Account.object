@@ -484,6 +484,7 @@
     </fields>
     <fields>
         <fullName>TR_BP_3__c</fullName>
+        <description>updated version 3</description>
         <externalId>false</externalId>
         <label>TR BP 3</label>
         <length>20</length>
