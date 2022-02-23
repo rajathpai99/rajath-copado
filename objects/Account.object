@@ -473,6 +473,27 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>TR_BP_2__c</fullName>
+        <externalId>false</externalId>
+        <label>TR BP 2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TR_BP_3__c</fullName>
+        <externalId>false</externalId>
+        <label>TR BP 3</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -779,6 +800,35 @@
                     <fullName>intelligent</fullName>
                     <default>false</default>
                     <label>intelligent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>test_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>test picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>orange</fullName>
+                    <default>false</default>
+                    <label>orange</label>
+                </value>
+                <value>
+                    <fullName>jackfruit</fullName>
+                    <default>false</default>
+                    <label>jackfruit</label>
+                </value>
+                <value>
+                    <fullName>pineapple</fullName>
+                    <default>false</default>
+                    <label>pineapple</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
