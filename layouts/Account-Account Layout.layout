@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>Industry</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SLA__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -117,10 +121,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>SLA__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>SLASerialNumber__c</field>
             </layoutItems>
             <layoutItems>
@@ -163,10 +163,6 @@
                 <behavior>Edit</behavior>
                 <field>Description</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>test_3__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -197,6 +193,16 @@
             <sortOrder>1</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>WebsiteHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>26</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>EmailHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>25</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewTask</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>2</sortOrder>
@@ -222,6 +228,11 @@
             <sortOrder>6</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>NewOpportunity</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewEvent</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
@@ -230,11 +241,6 @@
             <actionName>FeedItem.LinkPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>9</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>NewOpportunity</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>7</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>FeedItem.PollPost</actionName>
@@ -311,16 +317,6 @@
             <actionType>ProductivityAction</actionType>
             <sortOrder>24</sortOrder>
         </platformActionListItems>
-        <platformActionListItems>
-            <actionName>EmailHighlightAction</actionName>
-            <actionType>ProductivityAction</actionType>
-            <sortOrder>25</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>WebsiteHighlightAction</actionName>
-            <actionType>ProductivityAction</actionType>
-            <sortOrder>26</sortOrder>
-        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -378,13 +374,15 @@
         <relatedList>RelatedContactList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>CAMPAIGN.NAME</fields>
-        <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
-        <fields>CAMPAIGN.START_DATE</fields>
-        <fields>CAMPAIGN.BUDGETED_COST</fields>
-        <fields>CAMPAIGN.STATUS</fields>
-        <fields>CAMPAIGN.ACTIVE</fields>
-        <relatedList>RelatedAccountCampaignList</relatedList>
+        <fields>ASSET.NAME</fields>
+        <fields>ASSET.SERIAL_NUMBER</fields>
+        <fields>ASSET.INSTALL_DATE</fields>
+        <fields>ASSET.QUANTITY</fields>
+        <fields>CONTACT.NAME</fields>
+        <fields>ASSET.STATUS</fields>
+        <fields>ASSET.IS_COMPETITOR_PRODUCT</fields>
+        <fields>ASSET.ASSET_LEVEL</fields>
+        <relatedList>RelatedAssetList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>
@@ -440,7 +438,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2w000007KxPx</masterLabel>
+        <masterLabel>00h2w000007KxL1</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
