@@ -8,13 +8,10 @@ public class AccCreation {
             act1_upd.Fax = '123paicopa';
             act1_upd.Website='https://twitter.com';
             accList.add(act1_upd);
-            //test comment 29Dec21 v1
-            //test comment 29Dec21 v2
-            //test comment 11Mar22
+            //test comment 03May22
         }
         if(accList.size() > 0) {
             insert  accList;
-            //test comment 16Sep21-upd
         }
     }
     catch(Exception ex){
