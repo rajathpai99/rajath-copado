@@ -673,6 +673,7 @@
     </fields>
     <fields>
         <fullName>test_2__c</fullName>
+        <description>test description</description>
         <externalId>false</externalId>
         <label>test 2</label>
         <length>10</length>
