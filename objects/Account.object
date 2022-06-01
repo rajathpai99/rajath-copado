@@ -894,7 +894,7 @@
         <active>true</active>
         <errorConditionFormula>ISBLANK(BillingCountry)</errorConditionFormula>
         <errorDisplayField>BillingCountry</errorDisplayField>
-        <errorMessage>Billing Country cannot be blank</errorMessage>
+        <errorMessage>Billing Country cannot be blank updated</errorMessage>
     </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
