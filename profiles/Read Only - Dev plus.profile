@@ -4962,7 +4962,7 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AccountBrand</tab>
