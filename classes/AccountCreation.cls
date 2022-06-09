@@ -8,8 +8,8 @@ public class AccountCreation {
             acc.Fax = '123paicopa';
             acc.Website='https://trailhead.salesforce.com';
             accList.add(acc);
-            //Test comment 23Sep21
-            //Test comment 25Jan22
+            // comment to test cli work
+            //one more comment
         }
         if(accList.size() > 0) {
             insert  accList;
