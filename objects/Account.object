@@ -662,7 +662,7 @@
         <label>test 2</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
