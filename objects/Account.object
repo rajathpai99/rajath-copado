@@ -231,7 +231,7 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Read</externalSharingModel>
     <fields>
@@ -673,11 +673,11 @@
     </fields>
     <fields>
         <fullName>test_2__c</fullName>
+        <description>test description updated</description>
         <externalId>false</externalId>
         <label>test 2</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
