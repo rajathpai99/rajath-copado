@@ -124,6 +124,10 @@
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>EditReadonlyFields</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>EnableCommunityAppLauncher</name>
     </userPermissions>
