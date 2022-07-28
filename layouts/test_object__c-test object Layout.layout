@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>picklist_v1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TB_Auto_Num__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
