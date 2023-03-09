@@ -1,6 +1,5 @@
 @IsTest
 private class AccountAutomationsTest {
-//ConflictComment
     @isTest static void testDefaultDescription(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
