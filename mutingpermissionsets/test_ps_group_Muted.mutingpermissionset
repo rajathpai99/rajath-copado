@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MutingPermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.test_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <label>test ps group Muted</label>
+</MutingPermissionSet>
