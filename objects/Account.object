@@ -677,9 +677,9 @@
     </fields>
     <fields>
         <fullName>test_1__c</fullName>
-        <description>test description</description>
+        <description>description</description>
         <externalId>false</externalId>
-        <inlineHelpText>test help</inlineHelpText>
+        <inlineHelpText>help</inlineHelpText>
         <label>test 1</label>
         <length>10</length>
         <required>false</required>
