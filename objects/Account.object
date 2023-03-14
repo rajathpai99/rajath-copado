@@ -675,7 +675,9 @@
     </fields>
     <fields>
         <fullName>test_1__c</fullName>
+        <description>test description</description>
         <externalId>false</externalId>
+        <inlineHelpText>test help</inlineHelpText>
         <label>test 1</label>
         <length>10</length>
         <required>false</required>
@@ -687,9 +689,11 @@
         <fullName>test_2__c</fullName>
         <description>test description updated</description>
         <externalId>false</externalId>
+        <inlineHelpText>test help</inlineHelpText>
         <label>test 2</label>
         <length>10</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
