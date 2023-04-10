@@ -1,4 +1,4 @@
-public class AccCreation {
+public class AccCreation{
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
@@ -19,4 +19,5 @@ public class AccCreation {
         system.debug('Exception_Message--->'+ex.getMessage());
     }
     }
+    //test conflict uat    
 }
