@@ -673,23 +673,22 @@
     </fields>
     <fields>
         <fullName>test_2__c</fullName>
+        <description>test description updated</description>
         <externalId>false</externalId>
         <label>test 2</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>test_3__c</fullName>
-        <description>Dummy description</description>
+        <description>Dummy description version 101</description>
         <externalId>false</externalId>
         <inlineHelpText>Testing - updated version</inlineHelpText>
         <label>test 3 upd</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -699,7 +698,24 @@
         <label>test 4</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_5__c</fullName>
+        <externalId>false</externalId>
+        <label>test 5</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_6__c</fullName>
+        <externalId>false</externalId>
+        <label>test 6</label>
+        <length>10</length>
+        <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -709,7 +725,6 @@
         <label>test 7 upd</label>
         <length>10</length>
         <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -720,7 +735,6 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
