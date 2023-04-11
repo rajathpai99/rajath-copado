@@ -184,22 +184,16 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Acc_test_rec_1</content>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Acc_test_rec_1</content>
         <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -233,7 +227,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>Read</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -473,9 +467,29 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>TR_BP_1__c</fullName>
+        <externalId>false</externalId>
+        <label>TR BP 1</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TR_BP_2__c</fullName>
         <externalId>false</externalId>
         <label>TR BP 2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TR_BP_3__c</fullName>
+        <externalId>false</externalId>
+        <label>TR BP 3</label>
         <length>20</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -662,16 +676,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>test_1__c</fullName>
-        <externalId>false</externalId>
-        <label>test 1</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>test_2__c</fullName>
         <description>test description updated</description>
         <externalId>false</externalId>
@@ -793,6 +797,18 @@
                     <fullName>intelligent</fullName>
                     <default>false</default>
                     <label>intelligent</label>
+                </value>
+                <value>
+                    <fullName>dog_lab</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>dog_lab</label>
+                </value>
+                <value>
+                    <fullName>elephant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>elephant</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
