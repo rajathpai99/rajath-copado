@@ -6,7 +6,7 @@ public class AccCreation {
             Account act1_upd=new Account();
             act1_upd.Name = 'PaiCopa'+i+'Rajath';
             act1_upd.Fax = '123paicopa';
-            act1_upd.Website='https://twitter.com';
+            act1_upd.Website='https://twitter123.com';
             accList.add(act1_upd);
             //test comment 10Mar23
         }
