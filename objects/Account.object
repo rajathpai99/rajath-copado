@@ -276,6 +276,17 @@
         <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
+        <fullName>CLI_Test__c</fullName>
+        <description>test description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Help Me</inlineHelpText>
+        <label>CLI Test</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
     </fields>
     <fields>
