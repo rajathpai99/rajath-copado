@@ -4,5 +4,9 @@
         <members>Test_Object_19Jan__c.Test_Field__c</members>
         <name>CustomField</name>
     </types>
-    <version>56.0</version>
+    <types>
+        <members>Test_Object_19Jan__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>57.0</version>
 </Package>
