@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Object_19Jan__c.Test_Field__c</members>
+        <members>VTR12_SCONPRO_Object_Transfer__mdt.Source_field_for_External_Id__c</members>
+        <members>VTR12_SCONPRO_Object_Transfer__mdt.VT12_Sort_Order__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Test_Object_19Jan__c</members>
-        <name>CustomObject</name>
+        <members>VTR12_SCONPRO_Object_Transfer__mdt-SCONPRO Object Transfer Layout</members>
+        <name>Layout</name>
     </types>
     <version>57.0</version>
 </Package>
