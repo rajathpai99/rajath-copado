@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Object_19Jan__c.Test_Field__c</members>
-        <name>CustomField</name>
+        <members>VTR12_SCONPRO_Object_Transfer.RB_VTD1_Document</members>
+        <members>VTR12_SCONPRO_Object_Transfer.Secondary_Objective</members>
+        <members>VTR12_SCONPRO_Object_Transfer.VTD1_Chat</members>
+        <name>CustomMetadata</name>
     </types>
     <types>
-        <members>Test_Object_19Jan__c</members>
+        <members>VTR12_SCONPRO_Object_Transfer__mdt</members>
         <name>CustomObject</name>
     </types>
     <version>57.0</version>
