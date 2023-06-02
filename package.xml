@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_Object_19Jan__c.Test_Field__c</members>
-        <name>CustomField</name>
+        <members>Account.Update_Country</members>
+        <name>WorkflowFieldUpdate</name>
     </types>
     <types>
-        <members>Test_Object_19Jan__c</members>
-        <name>CustomObject</name>
+        <members>Account.Update Country</members>
+        <name>WorkflowRule</name>
     </types>
     <version>57.0</version>
 </Package>
