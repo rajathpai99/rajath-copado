@@ -17,7 +17,7 @@
             <name>Update_Country</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>startsWith</operation>
