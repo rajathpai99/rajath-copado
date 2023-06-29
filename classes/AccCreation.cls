@@ -12,7 +12,7 @@ public class AccCreation {
         }
         if(accList.size() > 0) {
             insert  accList;
-            //test comment 28June23
+            //test comment 29June23
         }
     }
     catch(Exception ex){
