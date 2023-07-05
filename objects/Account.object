@@ -467,6 +467,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>test_9__c</fullName>
+        <externalId>false</externalId>
+        <label>test 9</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TR_BP_1__c</fullName>
         <externalId>false</externalId>
         <label>TR BP 1</label>
