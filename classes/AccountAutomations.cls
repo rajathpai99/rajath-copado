@@ -1,6 +1,6 @@
-public class AccountAutomations {
+ public class AccountAutomations {
     Public static Account setDefaultDescription(Account a){
-//Comment
+//Comment dev1 26Jul2023
         If (a.Description != null) return a;
         Else {
             a.Description = 'Default description';
