@@ -30,11 +30,6 @@
         <field>Account.test_7__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.test_8__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>test perm set</label>
     <license>Salesforce</license>
