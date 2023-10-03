@@ -7,6 +7,8 @@
     <types>
         <members>Test_Custom_App</members>
         <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
+        <members>standard__ServiceConsole</members>
         <name>CustomApplication</name>
     </types>
     <types>
