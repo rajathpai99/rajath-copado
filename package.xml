@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity.OptySP</members>
-        <name>BusinessProcess</name>
+        <members>test_ext</members>
+        <name>ExternalCredential</name>
     </types>
     <types>
-        <members>Test_Custom_App</members>
-        <members>standard__LightningSalesConsole</members>
-        <members>standard__LightningService</members>
-        <members>standard__ServiceConsole</members>
-        <name>CustomApplication</name>
+        <members>test_perm_set</members>
+        <name>PermissionSet</name>
     </types>
-    <types>
-        <members>Opty_Test_LRP</members>
-        <members>Test_Custom_App_UtilityBar</members>
-        <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>Read Only</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Opportunity.OptyRT</members>
-        <name>RecordType</name>
-    </types>
-    <version>58.0</version>
+    <version>59.0</version>
 </Package>
