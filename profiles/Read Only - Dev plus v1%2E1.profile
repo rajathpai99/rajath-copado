@@ -466,11 +466,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.test_8__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.test_RTtoLT__c</field>
         <readable>true</readable>
     </fieldPermissions>
