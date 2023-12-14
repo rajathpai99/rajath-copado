@@ -1,4 +1,4 @@
-public class AccCreation{
+public class AccCreation {
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
@@ -8,13 +8,15 @@ public class AccCreation{
             act1_upd.Fax = '123paicopa';
             act1_upd.Website='https://twitter.com';
             accList.add(act1_upd);
-            //test comment 10Mar23
+            //test comment 23Mar23 v1.0.0
         }
         if(accList.size() > 0) {
             insert  accList;
+            //test comment 29June23
         }
     }
     catch(Exception ex){
+
     }
     }
     //test conflict uat    

@@ -26,4 +26,24 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner1</fullName>
+        <default>false</default>
+        <label>Partner1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>test</fullName>
+        <default>false</default>
+        <label>test</label>
+    </standardValue>
 </StandardValueSet>
