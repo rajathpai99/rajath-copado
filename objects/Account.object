@@ -270,12 +270,6 @@
         <fullName>BillingAddress</fullName>
     </fields>
     <fields>
-        <fullName>ChannelProgramLevelName</fullName>
-    </fields>
-    <fields>
-        <fullName>ChannelProgramName</fullName>
-    </fields>
-    <fields>
         <fullName>CLI_Test__c</fullName>
         <description>test description</description>
         <externalId>false</externalId>
@@ -285,6 +279,12 @@
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
@@ -856,6 +856,12 @@
     </listViews>
     <listViews>
         <fullName>NewThisWeek</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>ACCOUNT.CREATED_DATE</field>
@@ -863,6 +869,9 @@
             <value>THIS_WEEK</value>
         </filters>
         <label>New This Week</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>PlatinumandGoldSLACustomers</fullName>
