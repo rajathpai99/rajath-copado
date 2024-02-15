@@ -869,9 +869,6 @@
             <value>THIS_WEEK</value>
         </filters>
         <label>New This Week</label>
-        <sharedTo>
-            <role>CEO</role>
-        </sharedTo>
     </listViews>
     <listViews>
         <fullName>PlatinumandGoldSLACustomers</fullName>
