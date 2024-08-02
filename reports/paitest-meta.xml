@@ -7,7 +7,7 @@
     </folderShares>
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>rpai@copado.com.devone</sharedTo>
+        <sharedTo>rpai{!Environment.Username_Org_Suffix}</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>pai test</name>
