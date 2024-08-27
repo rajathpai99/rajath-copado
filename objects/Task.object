@@ -130,6 +130,9 @@
         <fullName>CallType</fullName>
     </fields>
     <fields>
+        <fullName>CompletedDateTime</fullName>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -358,6 +361,6 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>

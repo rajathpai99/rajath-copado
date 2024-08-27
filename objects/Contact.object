@@ -446,15 +446,39 @@
                     <default>false</default>
                     <label>Secondary</label>
                 </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MSP_test__c</fullName>
+        <externalId>false</externalId>
+        <label>MSP_test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
                 <value>
-                    <fullName>Tertiary</fullName>
+                    <fullName>test1</fullName>
                     <default>false</default>
-                    <label>Tertiary</label>
+                    <label>test1</label>
                 </value>
                 <value>
-                    <fullName>Primary</fullName>
+                    <fullName>test2</fullName>
                     <default>false</default>
-                    <label>Primary</label>
+                    <label>test2</label>
+                </value>
+                <value>
+                    <fullName>test3</fullName>
+                    <default>false</default>
+                    <label>test3</label>
+                </value>
+                <value>
+                    <fullName>test4</fullName>
+                    <default>false</default>
+                    <label>test4</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -498,6 +522,14 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>test_5_update__c</fullName>
+        <externalId>false</externalId>
+        <label>test 5 update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>test_backpro_field__c</fullName>
         <externalId>false</externalId>
         <label>test backpro field</label>
@@ -505,6 +537,58 @@
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_con_1__c</fullName>
+        <externalId>false</externalId>
+        <label>test con 1 update</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_con_2__c</fullName>
+        <externalId>false</externalId>
+        <label>test con 2 update</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_con_3__c</fullName>
+        <externalId>false</externalId>
+        <label>test con 3 update</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_con_4_update__c</fullName>
+        <externalId>false</externalId>
+        <label>test con 4 update</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_con_5_update__c</fullName>
+        <externalId>false</externalId>
+        <label>test con 5 update</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <listViews>
@@ -547,6 +631,7 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
         <fullName>CRM_Work_SE</fullName>
         <active>true</active>
