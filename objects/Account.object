@@ -722,6 +722,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>test_9__c</fullName>
+        <externalId>false</externalId>
+        <label>test 9</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>test_RTtoLT__c</fullName>
         <externalId>false</externalId>
         <label>test RTtoLT</label>
