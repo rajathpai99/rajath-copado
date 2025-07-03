@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ApexCoverageService</members>
-        <members>ApexCoverageServiceTest</members>
-        <name>ApexClass</name>
+        <members>KPS_EMEA_FORECASTING1</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/BKdYZfSbwudszhTVJraJUSciaQuaan</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/KDZoVwfpvyzrkNNXtaQRWFdYEDCxOC</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/OPRqlfxlBChgbpTeUWQRheqNpmmnMi</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/QmIXxzCUtDnHYvBznysRRdSIUFApfW</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/SvHWrawVebGTIncrIKurVLWbKzivDo</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/UVhzmxYiDTaDMFZavYlInErgukDOSY</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/XWGAklateLSKOCaoEXlpiqiHlGiLes</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/aUoLKOgoZGtcwBvlHsevVFKNriiMWb</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/rRcCozvdxsjIEcmploTwcAtWEjUaHC</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/rlYjiTXeGXMltXYVokSSuNKobobxGK</members>
+        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/tGNPXWgxKykbZCParfMyuiShPvqZKr</members>
+        <name>Dashboard</name>
     </types>
-    <version>60.0</version>
+    <types>
+        <members>paitest</members>
+        <members>paitest/Acc_Report_pai_test_qjG</members>
+        <name>Report</name>
+    </types>
+    <version>64.0</version>
 </Package>
