@@ -5153,6 +5153,9 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>dlrs__LookupChild__c-dlrs__Lookup Child Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>test_cm__mdt-test cm Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
