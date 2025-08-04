@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>test big object</description>
+    <fields>
+        <fullName>Order__c</fullName>
+        <description>Order</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Order</inlineHelpText>
+        <label>Order</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <description>Product Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product Name</inlineHelpText>
+        <label>Product Name</label>
+        <length>25</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sequence_Number__c</fullName>
+        <description>Sequence Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sequence Number</inlineHelpText>
+        <label>Sequence Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <indexes>
+        <fullName>Index</fullName>
+        <fields>
+            <name>Product_Name__c</name>
+            <sortDirection>DESC</sortDirection>
+        </fields>
+        <fields>
+            <name>Sequence_Number__c</name>
+            <sortDirection>DESC</sortDirection>
+        </fields>
+        <label>Index</label>
+    </indexes>
+    <label>Order Comment</label>
+    <pluralLabel>Order Comments</pluralLabel>
+</CustomObject>
