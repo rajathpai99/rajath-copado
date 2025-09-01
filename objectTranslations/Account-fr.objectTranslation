@@ -37,11 +37,11 @@
         <name>test_picklist__c</name>
         <picklistValues>
             <masterLabel>jackfruit</masterLabel>
-            <translation>jacquier</translation>
+            <translation>jacquierV1</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>orange</masterLabel>
-            <translation>orenj</translation>
+            <translation>orenjV1</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>pineapple</masterLabel>

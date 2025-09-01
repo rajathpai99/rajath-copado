@@ -61,4 +61,9 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Business Analytics</fullName>
+        <default>false</default>
+        <label>Business Analytics</label>
+    </standardValue>
 </StandardValueSet>
