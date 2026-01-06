@@ -1,5 +1,6 @@
 public class AccountCreation {
     public static void newAccountRecords() {
+    //Conflict 29Mar23
         try{
         List<Account> accList= new List<Account>();
         for( Integer i=0 ; i<20 ; i++ ) {
