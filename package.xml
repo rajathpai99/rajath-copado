@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>KPS_EMEA_FORECASTING1</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/BKdYZfSbwudszhTVJraJUSciaQuaan</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/KDZoVwfpvyzrkNNXtaQRWFdYEDCxOC</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/OPRqlfxlBChgbpTeUWQRheqNpmmnMi</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/QmIXxzCUtDnHYvBznysRRdSIUFApfW</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/SvHWrawVebGTIncrIKurVLWbKzivDo</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/UVhzmxYiDTaDMFZavYlInErgukDOSY</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/XWGAklateLSKOCaoEXlpiqiHlGiLes</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/aUoLKOgoZGtcwBvlHsevVFKNriiMWb</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/rRcCozvdxsjIEcmploTwcAtWEjUaHC</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/rlYjiTXeGXMltXYVokSSuNKobobxGK</members>
-        <members>KPS_EMEA_FORECASTING1/KPS_EMEA_BAUDOUIN1/tGNPXWgxKykbZCParfMyuiShPvqZKr</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
-        <members>paitest</members>
-        <members>paitest/Acc_Report_pai_test_qjG</members>
+        <members>ColombiaReports</members>
+        <members>ColombiaReports/BI_Terceros_completes_Cuentas_uTv</members>
+        <members>ColombiaReports/Visitas_a_pacientes_productividad_8Fw</members>
+        <members>PanamaReports</members>
+        <members>PanamaReports/BI_Terceros_completos_Cuentas_Eec</members>
+        <members>RepublicaDominicanaReports</members>
+        <members>RepublicaDominicanaReports/Eventos_Adversos_5h9</members>
         <name>Report</name>
     </types>
-    <version>64.0</version>
+    <version>65.0</version>
 </Package>
