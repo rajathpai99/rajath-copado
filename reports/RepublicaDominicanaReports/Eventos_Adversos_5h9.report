@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>CREATED</field>
+        <field>DUE_DATE</field>
     </columns>
     <columns>
         <field>USERS.NAME</field>
@@ -21,8 +21,18 @@
     <columns>
         <field>LAST_UPDATE</field>
     </columns>
+    <filter>
+        <criteriaItems>
+            <column>RATING</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Hot,Warm</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
     <format>Tabular</format>
-    <name>Acc Report - pai test</name>
+    <name>Eventos Adversos</name>
     <params>
         <name>co</name>
         <value>1</value>
